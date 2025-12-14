@@ -1,4 +1,4 @@
-export const sportsDucksUrls = [
+const nba = [
   // NBA Eastern
   "https://duckduckgo.com/dist/logos/dynamic/detroit_pistons.png",
   "https://duckduckgo.com/dist/logos/dynamic/new_york_knicks.png",
@@ -31,6 +31,9 @@ export const sportsDucksUrls = [
   "https://duckduckgo.com/dist/logos/dynamic/sacramento_kings.png",
   "https://duckduckgo.com/dist/logos/dynamic/la_clippers.png",
   "https://duckduckgo.com/dist/logos/dynamic/new_orleans_pelicans.png",
+]
+
+const nfl = [
   // NFL AFC
   "https://duckduckgo.com/dist/logos/dynamic/new_england_patriots.png",
   "https://duckduckgo.com/dist/logos/dynamic/buffalo_bills.png",
@@ -65,6 +68,9 @@ export const sportsDucksUrls = [
   "https://duckduckgo.com/dist/logos/dynamic/tampa_bay_buccaneers.png",
   "https://duckduckgo.com/dist/logos/dynamic/atlanta_falcons.png",
   "https://duckduckgo.com/dist/logos/dynamic/new_orleans_saints.png",
+]
+
+const nhl = [
   // NHL Eastern
   "https://duckduckgo.com/dist/logos/dynamic/tampa_bay_lightning.png",
   "https://duckduckgo.com/dist/logos/dynamic/boston_bruins.png",
@@ -99,6 +105,9 @@ export const sportsDucksUrls = [
   "https://duckduckgo.com/dist/logos/dynamic/seattle_kraken.png",
   "https://duckduckgo.com/dist/logos/dynamic/calgary_flames.png",
   "https://duckduckgo.com/dist/logos/dynamic/vancouver_canucks.png",
+]
+
+const mbl = [
   // MLB American League
   "https://duckduckgo.com/dist/logos/dynamic/toronto_blue_jays.png",
   "https://duckduckgo.com/dist/logos/dynamic/new_york_yankees.png",
@@ -131,6 +140,9 @@ export const sportsDucksUrls = [
   "https://duckduckgo.com/dist/logos/dynamic/san_francisco_giants.png",
   "https://duckduckgo.com/dist/logos/dynamic/arizona_diamondbacks.png",
   "https://duckduckgo.com/dist/logos/dynamic/colorado_rockies.png",
+]
+
+const mls = [
   // MLS Eastern Conference
   "https://duckduckgo.com/dist/logos/dynamic/philadelphia_union.png",
   "https://duckduckgo.com/dist/logos/dynamic/fc_cincinnati.png",
@@ -163,6 +175,9 @@ export const sportsDucksUrls = [
   "https://duckduckgo.com/dist/logos/dynamic/st_louis_city_sc.png",
   "https://duckduckgo.com/dist/logos/dynamic/la_galaxy.png",
   "https://duckduckgo.com/dist/logos/dynamic/sporting_kansas_city.png",
+]
+
+const europe = [
   // Europe
   "https://duckduckgo.com/dist/logos/dynamic/barcelona.png",
   "https://duckduckgo.com/dist/logos/dynamic/real_madrid.png",
@@ -205,3 +220,5 @@ export const sportsDucksUrls = [
   "https://duckduckgo.com/dist/logos/dynamic/leicester_city.png",
   "https://duckduckgo.com/dist/logos/dynamic/southampton.png",
 ]
+
+export const sportsDucksUrls = [nba, nfl, nhl, mbl, mls, europe].flat()

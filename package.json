@@ -3,5 +3,8 @@
   "dependencies": {
     "jsdom": "^27.3.0",
     "pc": "^0.0.6"
+  },
+  "prettier": {
+    "semi": false
   }
 }

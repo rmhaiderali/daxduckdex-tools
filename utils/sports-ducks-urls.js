@@ -1,4 +1,4 @@
-const nba = [
+const NBA = [
   // NBA Eastern
   "https://duckduckgo.com/dist/logos/dynamic/detroit_pistons.png",
   "https://duckduckgo.com/dist/logos/dynamic/new_york_knicks.png",
@@ -33,7 +33,7 @@ const nba = [
   "https://duckduckgo.com/dist/logos/dynamic/new_orleans_pelicans.png",
 ]
 
-const nfl = [
+const NFL = [
   // NFL AFC
   "https://duckduckgo.com/dist/logos/dynamic/new_england_patriots.png",
   "https://duckduckgo.com/dist/logos/dynamic/buffalo_bills.png",
@@ -70,7 +70,7 @@ const nfl = [
   "https://duckduckgo.com/dist/logos/dynamic/new_orleans_saints.png",
 ]
 
-const nhl = [
+const NHL = [
   // NHL Eastern
   "https://duckduckgo.com/dist/logos/dynamic/tampa_bay_lightning.png",
   "https://duckduckgo.com/dist/logos/dynamic/boston_bruins.png",
@@ -107,7 +107,7 @@ const nhl = [
   "https://duckduckgo.com/dist/logos/dynamic/vancouver_canucks.png",
 ]
 
-const mbl = [
+const MBL = [
   // MLB American League
   "https://duckduckgo.com/dist/logos/dynamic/toronto_blue_jays.png",
   "https://duckduckgo.com/dist/logos/dynamic/new_york_yankees.png",
@@ -142,7 +142,7 @@ const mbl = [
   "https://duckduckgo.com/dist/logos/dynamic/colorado_rockies.png",
 ]
 
-const mls = [
+const MLS = [
   // MLS Eastern Conference
   "https://duckduckgo.com/dist/logos/dynamic/philadelphia_union.png",
   "https://duckduckgo.com/dist/logos/dynamic/fc_cincinnati.png",
@@ -177,48 +177,70 @@ const mls = [
   "https://duckduckgo.com/dist/logos/dynamic/sporting_kansas_city.png",
 ]
 
-const europe = [
-  // Europe
-  "https://duckduckgo.com/dist/logos/dynamic/barcelona.png",
-  "https://duckduckgo.com/dist/logos/dynamic/real_madrid.png",
-  "https://duckduckgo.com/dist/logos/dynamic/villarreal.png",
-  "https://duckduckgo.com/dist/logos/dynamic/atletico_madrid.png",
-  "https://duckduckgo.com/dist/logos/dynamic/betis.png",
-  "https://duckduckgo.com/dist/logos/dynamic/athletic_club.png",
-  "https://duckduckgo.com/dist/logos/dynamic/getafe.png",
-  "https://duckduckgo.com/dist/logos/dynamic/celta_vigo.png",
-  "https://duckduckgo.com/dist/logos/dynamic/alaves.png",
-  "https://duckduckgo.com/dist/logos/dynamic/rayo_vallecano.png",
-  "https://duckduckgo.com/dist/logos/dynamic/sevilla.png",
-  "https://duckduckgo.com/dist/logos/dynamic/mallorca.png",
-  "https://duckduckgo.com/dist/logos/dynamic/real_sociedad.png",
-  "https://duckduckgo.com/dist/logos/dynamic/osasuna.png",
-  "https://duckduckgo.com/dist/logos/dynamic/valencia.png",
-  "https://duckduckgo.com/dist/logos/dynamic/girona.png",
-  "https://duckduckgo.com/dist/logos/dynamic/las_palmas.png",
-  "https://duckduckgo.com/dist/logos/dynamic/cadiz.png",
-  "https://duckduckgo.com/dist/logos/dynamic/valladolid.png",
-  "https://duckduckgo.com/dist/logos/dynamic/leganes.png",
+const eu1_UEFAChampionsLeague = [
   "https://duckduckgo.com/dist/logos/dynamic/arsenal.png",
-  "https://duckduckgo.com/dist/logos/dynamic/manchester_city.png",
-  "https://duckduckgo.com/dist/logos/dynamic/liverpool.png",
-  "https://duckduckgo.com/dist/logos/dynamic/tottenham_hotspur.png",
-  "https://duckduckgo.com/dist/logos/dynamic/newcastle_united.png",
+  "https://duckduckgo.com/dist/logos/dynamic/athletic_club.png",
+  "https://duckduckgo.com/dist/logos/dynamic/atletico_madrid.png",
   "https://duckduckgo.com/dist/logos/dynamic/chelsea.png",
-  "https://duckduckgo.com/dist/logos/dynamic/manchester_united.png",
+  "https://duckduckgo.com/dist/logos/dynamic/barcelona.png",
+  "https://duckduckgo.com/dist/logos/dynamic/liverpool.png",
+  "https://duckduckgo.com/dist/logos/dynamic/manchester_city.png",
+  "https://duckduckgo.com/dist/logos/dynamic/newcastle_united.png",
+  "https://duckduckgo.com/dist/logos/dynamic/real_madrid.png",
+  "https://duckduckgo.com/dist/logos/dynamic/tottenham_hotspur.png",
+  "https://duckduckgo.com/dist/logos/dynamic/villarreal.png",
+]
+
+const en1_PremierLeague = [
+  "https://duckduckgo.com/dist/logos/dynamic/bournemouth.png",
   "https://duckduckgo.com/dist/logos/dynamic/aston_villa.png",
+  "https://duckduckgo.com/dist/logos/dynamic/brentford.png",
+  "https://duckduckgo.com/dist/logos/dynamic/brighton_hove_albion.png",
   "https://duckduckgo.com/dist/logos/dynamic/crystal_palace.png",
   "https://duckduckgo.com/dist/logos/dynamic/everton.png",
-  "https://duckduckgo.com/dist/logos/dynamic/brighton_hove_albion.png",
   "https://duckduckgo.com/dist/logos/dynamic/fulham.png",
-  "https://duckduckgo.com/dist/logos/dynamic/bournemouth.png",
-  "https://duckduckgo.com/dist/logos/dynamic/brentford.png",
+  "https://duckduckgo.com/dist/logos/dynamic/manchester_united.png",
   "https://duckduckgo.com/dist/logos/dynamic/nottingham_forest.png",
   "https://duckduckgo.com/dist/logos/dynamic/west_ham_united.png",
   "https://duckduckgo.com/dist/logos/dynamic/wolverhampton_wanderers.png",
+]
+
+const es1_LaLiga = [
+  "https://duckduckgo.com/dist/logos/dynamic/osasuna.png",
+  "https://duckduckgo.com/dist/logos/dynamic/alaves.png",
+  "https://duckduckgo.com/dist/logos/dynamic/getafe.png",
+  "https://duckduckgo.com/dist/logos/dynamic/girona.png",
+  "https://duckduckgo.com/dist/logos/dynamic/celta_vigo.png",
+  "https://duckduckgo.com/dist/logos/dynamic/mallorca.png",
+  "https://duckduckgo.com/dist/logos/dynamic/rayo_vallecano.png",
+  "https://duckduckgo.com/dist/logos/dynamic/betis.png",
+  "https://duckduckgo.com/dist/logos/dynamic/real_sociedad.png",
+  "https://duckduckgo.com/dist/logos/dynamic/sevilla.png",
+  "https://duckduckgo.com/dist/logos/dynamic/valencia.png",
+]
+
+const en2_EFLChampionship = [
   "https://duckduckgo.com/dist/logos/dynamic/ipswich_town.png",
   "https://duckduckgo.com/dist/logos/dynamic/leicester_city.png",
   "https://duckduckgo.com/dist/logos/dynamic/southampton.png",
 ]
 
-export const sportsDucksUrls = [nba, nfl, nhl, mbl, mls, europe].flat()
+const es2_LaLiga2 = [
+  "https://duckduckgo.com/dist/logos/dynamic/leganes.png",
+  "https://duckduckgo.com/dist/logos/dynamic/cadiz.png",
+  "https://duckduckgo.com/dist/logos/dynamic/valladolid.png",
+  "https://duckduckgo.com/dist/logos/dynamic/las_palmas.png",
+]
+
+export const sportsDucksUrls = [
+  NBA,
+  NFL,
+  NHL,
+  MBL,
+  MLS,
+  eu1_UEFAChampionsLeague,
+  en1_PremierLeague,
+  es1_LaLiga,
+  en2_EFLChampionship,
+  es2_LaLiga2,
+].flat()

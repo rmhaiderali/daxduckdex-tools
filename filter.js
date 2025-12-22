@@ -1,3 +1,5 @@
+process.chdir(import.meta.dirname)
+
 import fs from "fs"
 import { makdulacDucks } from "./utils/makdulac-ducks.js"
 import { sportsDucksUrls } from "./utils/sports-ducks-urls.js"

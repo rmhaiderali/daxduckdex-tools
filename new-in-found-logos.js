@@ -1,7 +1,7 @@
-import { sportsDucksUrls } from "./utils/sports-ducks-urls.js"
+import { foundDucksUrls } from "./utils/found-ducks-urls.js"
 import { makdulacDucksUrls } from "./utils/makdulac-ducks-urls.js"
 
-const newDucks = sportsDucksUrls.filter((e) => !makdulacDucksUrls.includes(e))
+const newDucks = foundDucksUrls.filter((e) => !makdulacDucksUrls.includes(e))
 
 if (newDucks.length) {
   console.log(newDucks.length + " new ducks found")

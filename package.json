@@ -1,8 +1,11 @@
 {
   "type": "module",
   "dependencies": {
+    "diff": "^8.0.2",
     "jsdom": "^27.3.0",
-    "pc": "^0.0.6"
+    "jsonc-parser": "^3.3.1",
+    "pc": "^0.0.6",
+    "prompts": "^2.4.2"
   },
   "prettier": {
     "semi": false

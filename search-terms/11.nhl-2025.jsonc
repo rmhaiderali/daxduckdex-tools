@@ -1,0 +1,38 @@
+// https://www.espn.com/nhl/standings/_/season/2026/group/conference
+[
+  // Eastern Conference
+  "Boston Bruins",
+  "Buffalo Sabres",
+  "Carolina Hurricanes",
+  "Columbus Blue Jackets",
+  "Detroit Red Wings",
+  "Florida Panthers",
+  "Montreal Canadiens",
+  "New Jersey Devils",
+  "New York Islanders",
+  "New York Rangers",
+  "Ottawa Senators",
+  "Philadelphia Flyers",
+  "Pittsburgh Penguins",
+  "Tampa Bay Lightning",
+  "Toronto Maple Leafs",
+  "Washington Capitals",
+
+  // Western Conference
+  "Anaheim Ducks",
+  "Calgary Flames",
+  "Chicago Blackhawks",
+  "Colorado Avalanche",
+  "Dallas Stars",
+  "Edmonton Oilers",
+  "Los Angeles Kings",
+  "Minnesota Wild",
+  "Nashville Predators",
+  "San Jose Sharks",
+  "Seattle Kraken",
+  "St Louis Blues", // St. Louis Blues
+  "Utah Hockey Club", // Utah Mammoth
+  "Vancouver Canucks",
+  "Vegas Golden Knights",
+  "Winnipeg Jets"
+]

@@ -1,3 +1,7 @@
 node_modules
+
 ducks/*
 !ducks/.gitkeep
+
+found-logos/new/*
+!found-logos/new/.gitkeep

@@ -1,0 +1,36 @@
+// https://www.google.com/search?q=mls+standings+2025
+[
+  // Eastern Conference
+  "Atlanta United FC",
+  "CF Montreal", // CF Montréal
+  "Charlotte FC",
+  "Chicago Fire FC",
+  "Columbus Crew",
+  "DC United",
+  "FC Cincinnati",
+  "Inter Miami CF",
+  "Nashville SC",
+  "New England Revolution",
+  "New York City FC",
+  "New York Red Bulls",
+  "Orlando City SC",
+  "Philadelphia Union",
+  "Toronto FC",
+
+  // Western Conference
+  "Austin FC",
+  "Colorado Rapids",
+  "FC Dallas",
+  "Houston Dynamo FC",
+  "LA Galaxy",
+  "Los Angeles Football Club", // Los Angeles FC
+  "Minnesota United FC",
+  "Portland Timbers",
+  "Real Salt Lake",
+  "San Diego FC",
+  "San Jose Earthquakes",
+  "Seattle Sounders FC",
+  "Sporting Kansas City",
+  "St Louis City SC",
+  "Vancouver Whitecaps FC"
+]

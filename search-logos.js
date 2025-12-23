@@ -73,30 +73,26 @@ for (let i = 0; i < searchTerms.length; i++) {
 
   if (logo) {
     console.log(
-      pc.green("==>"),
-      "Found logo",
-      pc.magenta(logo.split("/").pop())
+      pc.green("==>") + " Found logo" + pc.magenta(logo.split("/").pop())
     )
     const fullLogo = "https://duckduckgo.com" + logo
     if (!logos.includes(fullLogo)) logos.push(fullLogo)
   } else {
-    console.log(pc.red("==>"), "No logo found")
+    console.log(pc.red("==>") + " No logo found")
   }
 }
 
 if (logos.length) {
-  console.log(logos.length + " logos found from search terms")
+  fs.writeFileSync(logosFile, JSON.stringify(logos, null, 2))
+
+  console.log(logos.length + " logos found for search terms\n")
+  console.log("Diff:")
 
   const existingLogos = fs.existsSync(existingLogosFile)
     ? JSON.parse(fs.readFileSync(existingLogosFile, "utf-8"))
     : []
 
-  fs.writeFileSync(logosFile, JSON.stringify(logos, null, 2))
-
   const diff = diffArrays(existingLogos, logos)
-
-  console.log()
-  console.log("Diff:")
 
   diff.forEach((part) => {
     const color = part.added ? pc.green : part.removed ? pc.red : pc.white
@@ -104,5 +100,5 @@ if (logos.length) {
     part.value.forEach((line) => console.log(color(sign + " " + line)))
   })
 } else {
-  console.log("No logo found")
+  console.log("No logos found")
 }

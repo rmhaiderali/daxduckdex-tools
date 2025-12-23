@@ -3,6 +3,12 @@ Array.from(
   new Set(
     Array.from(document.querySelectorAll(".category-page__member"))
       .filter((e) => !e.querySelector("svg"))
-      .map((e) => e.children[1].innerText.replace(/ \(.+\)$/, ""))
+      .map((e) =>
+        e.children[1].innerText
+          .split(/\s*\/\s*/)
+          .map((e) => e.replace(/ \(.+\)$/, ""))
+      )
+      .flat()
+      .sort()
   )
 )

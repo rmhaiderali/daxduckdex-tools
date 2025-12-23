@@ -6,6 +6,8 @@ import { JSDOM } from "jsdom"
 import chunkArray from "./chunk-array.js"
 
 const startPage = ""
+const wiki = startPage.split("//")[1].split(".")[0]
+
 let nextPage = startPage
 
 const charactersByPages = []
@@ -52,8 +54,6 @@ const allCharacters = charactersByPages.flat()
 const uniqueCharacters = Array.from(new Set(allCharacters)).sort()
 
 if (uniqueCharacters.length) {
-  const wiki = startPage.split("//")[1].split(".")[0]
-
   if (uniqueCharacters.length > 1000) {
     const chunks = chunkArray(uniqueCharacters, 1000)
     for (let i = 0; i < chunks.length; i++) {

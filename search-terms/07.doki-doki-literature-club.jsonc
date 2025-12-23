@@ -1,2 +1,10 @@
 // https://doki-doki-literature-club.fandom.com/wiki/Category:Characters
-["Doki Doki Literature Club", "Monika", "Natsuki", "Sayori", "Yuri"]
+[
+  "Monika",
+  "Natsuki",
+  "Protagonist",
+  "Sayori",
+  "Yuri",
+  //
+  "Doki Doki Literature Club"
+]

@@ -36,9 +36,7 @@ for (let i = 0; nextPage; i++) {
   )
     .filter((e) => !e.querySelector("svg"))
     .map((e) =>
-      e.children[1].textContent
-        .split(/\s*\/\s*/)
-        .map((e) => e.replace(/ \(.+\)$/, ""))
+      e.children[1].textContent.replace(/\s*\(.+?\)\s*/, "").split(/\s*\/\s*/)
     )
     .flat()
 

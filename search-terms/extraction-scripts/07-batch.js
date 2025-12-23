@@ -5,6 +5,13 @@ import pc from "picocolors"
 import { JSDOM } from "jsdom"
 import chunkArray from "./chunk-array.js"
 
+function removeNestedParentheses(s) {
+  while (/\([^()]*\)/.test(s)) {
+    s = s.replace(/\s*\([^()]*\)\s*/g, "")
+  }
+  return s
+}
+
 const startPage = ""
 const wiki = startPage.split("//")[1].split(".")[0]
 
@@ -38,7 +45,7 @@ for (let i = 0; nextPage; i++) {
   )
     .filter((e) => !e.querySelector("svg"))
     .map((e) =>
-      e.children[1].textContent.replace(/\s*\(.+?\)\s*/, "").split(/\s*\/\s*/)
+      removeNestedParentheses(e.children[1].textContent).split(/\s*\/\s*/)
     )
     .flat()
 
@@ -52,6 +59,8 @@ for (let i = 0; nextPage; i++) {
 
 const allCharacters = charactersByPages.flat()
 const uniqueCharacters = Array.from(new Set(allCharacters)).sort()
+
+console.log()
 
 if (uniqueCharacters.length) {
   if (uniqueCharacters.length > 1000) {
@@ -71,9 +80,8 @@ if (uniqueCharacters.length) {
     fs.writeFileSync("search-terms/" + file, content)
   }
 
-  console.log("pages: " + charactersByPages.length)
-  console.log("total characters: " + allCharacters.length)
-  console.log("unique characters: " + uniqueCharacters.length)
+  console.log("Total characters: " + allCharacters.length)
+  console.log("Unique characters: " + uniqueCharacters.length)
 } else {
   console.log("No characters found")
 }

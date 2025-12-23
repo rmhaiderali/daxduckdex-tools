@@ -73,7 +73,7 @@ for (let i = 0; i < searchTerms.length; i++) {
 
   if (logo) {
     console.log(
-      pc.green("==>") + " Found logo" + pc.magenta(logo.split("/").pop())
+      pc.green("==>") + " Found logo " + pc.magenta(logo.split("/").pop())
     )
     const fullLogo = "https://duckduckgo.com" + logo
     if (!logos.includes(fullLogo)) logos.push(fullLogo)

@@ -1,4 +1,4 @@
-process.chdir(import.meta.dirname)
+process.chdir(import.meta.dirname + "/..")
 
 import fs from "fs"
 

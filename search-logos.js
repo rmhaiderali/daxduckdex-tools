@@ -14,7 +14,8 @@ const files = fs
   .map((dirent) => dirent.name)
 
 function fileToTitle(str) {
-  return str.split(".")[1].replaceAll("-", " ")
+  const [number, title] = str.split(".")
+  return number + " " + title.replaceAll("-", " ")
 }
 
 const { file } = await prompts(

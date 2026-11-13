@@ -41,11 +41,11 @@ for (let i = 0; nextPage; i++) {
   nextPage = document.querySelector('[rel="next"]')?.getAttribute("href")
 
   const characters = Array.from(
-    document.querySelectorAll(".category-page__member")
+    document.querySelectorAll(".category-page__member"),
   )
     .filter((e) => !e.querySelector("svg"))
     .map((e) =>
-      removeNestedParentheses(e.children[1].textContent).split(/\s*\/\s*/)
+      removeNestedParentheses(e.children[1].textContent).split(/\s*\/\s*/),
     )
     .flat()
 
@@ -62,9 +62,11 @@ const uniqueCharacters = Array.from(new Set(allCharacters)).sort()
 
 console.log()
 
+const maxCharsPerFile = 999
+
 if (uniqueCharacters.length) {
-  if (uniqueCharacters.length > 1000) {
-    const chunks = chunkArray(uniqueCharacters, 1000)
+  if (uniqueCharacters.length > maxCharsPerFile) {
+    const chunks = chunkArray(uniqueCharacters, maxCharsPerFile)
     for (let i = 0; i < chunks.length; i++) {
       const file = "07." + wiki + "-part-" + (i + 1) + ".jsonc"
       const json = JSON.stringify(chunks[i], null, 2)

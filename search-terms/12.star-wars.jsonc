@@ -1,0 +1,27 @@
+// https://www.google.com/search?q=star+war+characters
+[
+  "Luke Skywalker",
+  "Princess Leia Organa",
+  "Han Solo",
+  "Chewbacca",
+  "Obi-Wan Kenobi",
+  "Yoda",
+  "Ahsoka Tano",
+  "Rey",
+  "Din Djarin (The Mandalorian)",
+  "Grogu",
+  "Darth Vader",
+  "Anakin Skywalker",
+  "Emperor Palpatine",
+  "Darth Sidious",
+  "Darth Maul",
+  "Boba Fett",
+  "Kylo Ren",
+  "R2D2", // R2-D2
+  "C3PO", // C-3PO
+  "Jabba the Hutt",
+  "Lando Calrissian",
+  "Padmé Amidala",
+  "Mace Windu",
+  "Cassian Andor"
+]

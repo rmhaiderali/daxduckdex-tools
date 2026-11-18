@@ -1,13 +1,12 @@
 // fetch wayback ducks
 
 const waybackSearchParams = {
+  fl: "original",
   limit: "10000",
   output: "json",
-  matchType: "prefix",
   collapse: "urlkey",
-  filter: "!statuscode:[45]..",
+  matchType: "prefix",
   url: "https://duckduckgo.com/dist/logos/dynamic/",
-  fl: "original,mimetype,timestamp,endtimestamp,groupcount,uniqcount",
 }
 
 const waybackApiUrl =
@@ -30,10 +29,26 @@ if (
   process.exit(2)
 }
 
-let waybackData = await waybackResponse.json()
+const waybackData = await waybackResponse.json()
 
-waybackData = waybackData.slice(1)
+const characters = waybackData.slice(1).map((e) => {
+  const url = new URL(e[0])
+  return url.origin + url.pathname
+})
 
-console.log(waybackData.length + " ducks found on Wayback ")
+const badLinks = [
+  "https://duckduckgo.com/dist/logos/dynamic/",
+  "https://duckduckgo.com/dist/logos/dynamic/(query).png",
+  "https://duckduckgo.com/dist/logos/dynamic/batman.png)",
+  // Removed Characters
+  "https://duckduckgo.com/dist/logos/dynamic/bob_marley.png",
+  "https://duckduckgo.com/dist/logos/dynamic/doomguy.png",
+]
 
-export const waybackDucks = waybackData
+const uniqueCharacters = Array.from(new Set(characters))
+
+const filteredCharacters = uniqueCharacters.filter((e) => !badLinks.includes(e))
+
+console.log(filteredCharacters.length + " ducks found on Wayback")
+
+export const waybackDucks = filteredCharacters

@@ -1,6 +1,6 @@
 // fetch makdulac ducks
 
-const makdulacApiUrl = "https://api.makdulac.com/api/characters"
+const makdulacApiUrl = "https://daxduckdex.rmha62.workers.dev/api/characters"
 
 console.log("Requesting Makdulac ducks")
 
@@ -18,10 +18,8 @@ if (
   process.exit(4)
 }
 
-let makdulacData = await makdulacResponse.json()
+const { characters } = await makdulacResponse.json()
 
-makdulacData = makdulacData.characters
+console.log(characters.length + " ducks found on Makdulac")
 
-console.log(makdulacData.length + " ducks found on Makdulac")
-
-export const makdulacDucks = makdulacData
+export const makdulacDucks = characters

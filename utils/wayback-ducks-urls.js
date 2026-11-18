@@ -51,4 +51,4 @@ const filteredCharacters = uniqueCharacters.filter((e) => !badLinks.includes(e))
 
 console.log(filteredCharacters.length + " ducks found on Wayback")
 
-export const waybackDucks = filteredCharacters
+export const waybackDucksUrls = filteredCharacters

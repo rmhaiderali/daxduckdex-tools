@@ -1,4 +1,5 @@
 // fetch wayback ducks
+import ms from "ms"
 
 const waybackSearchParams = {
   fl: "original",
@@ -15,7 +16,9 @@ const waybackApiUrl =
 
 console.log("Requesting Wayback ducks")
 
-const waybackResponse = await fetch(waybackApiUrl)
+const waybackResponse = await fetch(waybackApiUrl, {
+  signal: AbortSignal.timeout(ms("90s")),
+})
 
 if (!waybackResponse.ok) {
   console.error("Failed to fetch from Wayback API")

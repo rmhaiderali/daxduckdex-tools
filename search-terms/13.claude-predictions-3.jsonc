@@ -1,0 +1,34 @@
+[
+  // Simpsons / Springfield (best family)
+  "Apu Nahasapeemapetilon", "Chief Wiggum", "Comic Book Guy", "Sideshow Bob",
+  "Principal Skinner", "Lenny Leonard", "Carl Carlson", "Nelson Muntz",
+  "Troy McClure", "Professor Frink", "Patty Bouvier", "Selma Bouvier",
+  "Edna Krabappel", "Groundskeeper Willie", "Kang", "Kodos",
+  "Santa's Little Helper", "Snowball II", "Reverend Lovejoy", "Barney Gumble",
+  "Waylon Smithers", "Abe Simpson", "Rod Flanders", "Todd Flanders",
+  "Itchy", "Scratchy", "Duffman", "Fat Tony", "Kent Brockman", "Otto Mann",
+
+  // Hololive siblings
+  "Watson Amelia", "Tokoyami Towa", "Takane Lui", "Ayunda Risu", "Moona Hoshinova",
+  "Kureiji Ollie", "Pavolia Reine", "Vestia Zeta", "Kaela Kovalskia", "Shiori Novella",
+  "Fuwawa Abyssgard", "Mococo Abyssgard", "IRyS", "Tsukumo Sana", "Nanashi Mumei",
+  "Hakui Koyori", "Sakamata Chloe", "Sakura Miko", "Amane Kanata", "Tsunomaki Watame",
+  "Gigi Murin", "Cecilia Immergreen", "Raora Panthera", "Elizabeth Rose Bloodflame",
+
+  // Composers (deceased) not yet tested
+  "Gioachino Rossini", "Giacomo Puccini", "Vincenzo Bellini", "Gaetano Donizetti",
+  "Niccolo Paganini", "Hector Berlioz", "Georges Bizet", "Jacques Offenbach",
+  "Camille Saint-Saens", "Gabriel Faure", "Edvard Grieg", "Jean Sibelius",
+  "Sergei Rachmaninoff", "Sergei Prokofiev", "Dmitri Shostakovich",
+  "Modest Mussorgsky", "Nikolai Rimsky-Korsakov", "Edward Elgar", "Gustav Holst",
+  "George Gershwin", "Scott Joplin", "Bela Bartok", "Bedrich Smetana",
+  "Georg Philipp Telemann", "Domenico Scarlatti", "Arcangelo Corelli",
+  "Johann Pachelbel", "Jean-Philippe Rameau", "Fanny Mendelssohn",
+  "Lili Boulanger", "Hildegard of Bingen", "Florence Price", "Ethel Smyth",
+  "Carl Philipp Emanuel Bach", "Franz Schubert", "Anton Bruckner",
+
+  // Animals that echo existing list entries
+  "Duck", "Rubber Duck", "Turkey", "Cow", "Horse", "Sheep", "Goat", "Fox",
+  "Wolf", "Bear", "Lion", "Tiger", "Elephant", "Monkey", "Bat", "Spider",
+  "Whale", "Shark", "Snake"
+]

@@ -1,0 +1,94 @@
+[
+  // Odyssey / Iliad / Epic of Gilgamesh
+  "Scylla", "Charybdis", "Telemachus", "Tiresias", "Aeolus", "Helios",
+  "Eurylochus", "Laertes", "Eumaeus", "Sirens", "Lotus-Eaters", "Agamemnon",
+  "Menelaus", "Helen of Troy", "Paris of Troy", "Priam", "Hector", "Patroclus",
+  "Briseis", "Cassandra", "Aeneas", "Dido", "Enkidu", "Humbaba", "Ishtar",
+
+  // Marvel (untested)
+  "Captain Marvel", "Shuri", "Okoye", "Killmonger", "Kingpin", "Electro",
+  "Sandman", "Vulture", "The Lizard", "Kraven the Hunter", "Rhino", "Red Skull",
+  "Baron Zemo", "She-Hulk", "Elektra", "Luke Cage", "Iron Fist", "Jessica Jones",
+  "Emma Frost", "Juggernaut", "Sabretooth", "Apocalypse", "Taskmaster",
+  "Kang the Conqueror", "Wong", "Yondu", "Squirrel Girl", "Cable", "Domino",
+  "Odin Borson", "Heimdall", "Sif", "Valkyrie", "Korg", "Ronan the Accuser",
+
+  // DC (untested)
+  "Mera", "Black Manta", "Cheetah", "Deathstroke", "Zatanna", "John Constantine",
+  "Doctor Fate", "Hawkman", "Black Adam", "Brainiac", "Doomsday", "General Zod",
+  "Bizarro", "Lobo", "Blue Beetle", "Red Hood", "Clayface", "Killer Croc",
+  "Plastic Man", "Etrigan", "Firestorm", "The Atom", "Mr. Miracle", "Orion",
+
+  // Naruto
+  "Sasuke Uchiha", "Sakura Haruno", "Kakashi Hatake", "Itachi Uchiha",
+  "Hinata Hyuga", "Rock Lee", "Gaara", "Jiraiya", "Orochimaru", "Madara Uchiha",
+  "Tsunade", "Shikamaru Nara", "Might Guy", "Minato Namikaze", "Kurama",
+
+  // Dragon Ball
+  "Gohan", "Piccolo", "Frieza", "Trunks", "Krillin", "Bulma", "Cell",
+  "Majin Buu", "Master Roshi", "Chi-Chi", "Android 18", "Beerus", "Shenron",
+
+  // Attack on Titan
+  "Eren Yeager", "Mikasa Ackerman", "Armin Arlert", "Levi Ackerman",
+  "Erwin Smith", "Reiner Braun", "Annie Leonhart", "Historia Reiss",
+  "Zeke Yeager", "Hange Zoe", "Sasha Blouse", "Jean Kirstein",
+
+  // Madoka / Fate / Steins;Gate / Cardcaptor / Haruhi
+  "Madoka Kaname", "Homura Akemi", "Sayaka Miki", "Mami Tomoe", "Kyoko Sakura",
+  "Kyubey", "Artoria Pendragon", "Shirou Emiya", "Illyasviel von Einzbern",
+  "Sakura Matou", "Kiritsugu Emiya", "Mash Kyrielight", "Kurisu Makise",
+  "Mayuri Shiina", "Itaru Hashida", "Suzuha Amane", "Faris Nyannyan",
+  "Moeka Kiryu", "Ruka Urushibara", "Tomoyo Daidouji", "Kero", "Syaoran Li",
+  "Yue", "Touya Kinomoto", "Yuki Nagato", "Mikuru Asahina", "Kyon",
+  "Itsuki Koizumi",
+
+  // More swordsmen / Demon Slayer / One Piece leftovers
+  "Kenshin Himura", "Mugen", "Jin", "Vash the Stampede", "Guts", "Griffith",
+  "Genos", "Gintoki Sakata", "Muichiro Tokito", "Sanemi Shinazugawa",
+  "Gyomei Himejima", "Obanai Iguro", "Kanao Tsuyuri", "Kagaya Ubuyashiki",
+  "Dracule Mihawk", "Monkey D. Garp", "Edward Newgate", "Blackbeard", "Kaido",
+  "Big Mom", "Gol D. Roger", "Buggy the Clown", "Eustass Kid", "Smoker",
+
+  // Higurashi / Vocaloid / Voiceroid
+  "Kamui Gakupo", "SF-A2 Miki", "Tohoku Zunko", "Tsurumaki Maki",
+  "Kotonoha Akane", "Kotonoha Aoi", "Kizuna Akari", "Sweet Ann", "Big Al",
+  "Takano Miyo", "Shion Sonozaki", "Oishi Kuraudo", "Rika Furude's Hanyuu",
+
+  // Nintendo and retro (one per franchise hit last time)
+  "Zant", "Ghirahim", "Vaati", "Tatl", "Great Deku Tree", "Kaepora Gaebora",
+  "Beedle", "Linebeck", "Donkey Kong Jr.", "King Boo", "Petey Piranha", "Wart",
+  "Luma", "Cappy", "Geno", "Mallow", "Adeleine", "Ribbon", "Taranza", "Daroach",
+  "Bandana Waddle Dee", "Galacta Knight", "Gooey", "Dark Matter", "Q*bert",
+  "Frogger", "Space Invaders", "Pong", "Asteroids", "Centipede", "Dig Dug",
+  "Galaga", "Bubble Bobble", "Mappy", "Klonoa", "Banjo and Kazooie", "Spyro",
+  "Rayman", "Earthworm Jim", "Conker", "Sly Cooper", "Jak and Daxter",
+  "Silver the Hedgehog", "Rouge the Bat", "Metal Sonic", "Blaze the Cat",
+  "Cream the Rabbit", "Big the Cat", "Espio the Chameleon", "Richter Belmont",
+  "Ryu Hayabusa", "Sir Arthur", "Bass", "Zero (Mega Man X)",
+
+  // Dinosaurs and prehistoric (T-Rex, Triceratops, Velociraptor are on your list)
+  "Stegosaurus", "Brachiosaurus", "Spinosaurus", "Ankylosaurus", "Pteranodon",
+  "Diplodocus", "Allosaurus", "Dilophosaurus", "Mosasaurus", "Parasaurolophus",
+  "Mammoth", "Saber-toothed Tiger", "Megalodon", "Archaeopteryx",
+
+  // Cryptids and folklore monsters
+  "Mothman", "Bigfoot", "Chupacabra", "Loch Ness Monster", "Jackalope", "Kitsune",
+  "Kappa", "Tengu", "Oni", "Baba Yaga", "Banshee", "Golem", "Cthulhu",
+  "Wendigo", "Gargoyle", "Basilisk", "Wyvern", "Phoenix Wright",
+
+  // Classic cartoons near Pink Panther
+  "The Inspector", "Yogi Bear", "Boo-Boo Bear", "Top Cat", "Huckleberry Hound",
+  "Snagglepuss", "Quick Draw McGraw", "Hong Kong Phooey", "Captain Caveman",
+  "Magilla Gorilla", "Atom Ant", "Secret Squirrel", "Dick Dastardly", "Muttley",
+  "Penelope Pitstop", "Space Ghost", "Johnny Quest", "Underdog",
+  "Rocky the Flying Squirrel", "Bullwinkle", "Dudley Do-Right", "Mr. Magoo",
+  "Heathcliff", "Ant and the Aardvark", "Count Duckula", "Danger Mouse",
+  "Penfold", "Bananaman", "Roobarb", "Noddy", "Pingu", "Moomin", "Snufkin",
+  "Little My", "Miffy", "Maya the Bee", "Pippi Longstocking", "Bob the Builder",
+  "Postman Pat", "Fireman Sam", "Tinky-Winky",
+
+  // Seuss and Avatar leftovers
+  "The Once-ler", "Max the Dog", "Fox in Socks", "The Sneetches",
+  "Gertrude McFuzz", "Avatar Kyoshi", "Avatar Roku", "Admiral Zhao", "Yue",
+  "Master Pakku", "Azulon", "Hama"
+]

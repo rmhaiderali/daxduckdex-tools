@@ -1,0 +1,164 @@
+[
+  // Franchise names (your list holds characters from these)
+  "Steins;Gate", "Re:Zero", "Bocchi the Rock!", "K-On!", "Lucky Star",
+  "Higurashi When They Cry", "Neon Genesis Evangelion", "Fate/stay night",
+  "Demon Slayer", "Jujutsu Kaisen", "My Hero Academia", "One Piece",
+  "Dragon Ball", "Spirited Away", "Kiki's Delivery Service", "Howl's Moving Castle",
+  "Castle in the Sky", "Pirates of the Caribbean", "The Hunger Games",
+  "Breaking Bad", "Rick and Morty", "The Legend of Zelda", "Super Mario",
+  "Final Fantasy VII", "Star Wars", "Star Trek", "Harry Potter",
+  "The Lord of the Rings", "The Matrix", "Back to the Future", "Die Hard",
+  "Toy Story", "Frozen", "Wicked", "Hamilton", "Treasure Island", "Omori",
+  "Halo", "Half-Life", "Portal", "Persona 5", "Metal Gear Solid",
+  "Red Dead Redemption", "Fallout", "Street Fighter", "Mortal Kombat",
+  "Resident Evil", "Sonic the Hedgehog", "Pokemon", "Splatoon",
+
+  // Avatar: The Last Airbender / Korra
+  "Appa", "Momo", "Suki", "Mai", "Fire Lord Ozai", "Bumi", "Korra", "Jet",
+
+  // Near-complete kids' cartoon casts
+  "Chase", "Rubble", "Tracker", "Ryder",
+  "Blossom", "Bubbles", "Buttercup", "Professor Utonium",
+  "Candace Flynn", "Isabella Garcia-Shapiro", "Baljeet", "Buford",
+  "Bingo Heeler", "Bandit Heeler", "Chilli Heeler",
+  "George Pig", "Mummy Pig", "Daddy Pig", "Suzy Sheep",
+  "Percy", "Gordon", "Henry", "Edward",
+  "Shaun the Sheep", "Feathers McGraw", "Wendolene Ramsbottom",
+  "Asterix", "Getafix", "Dogmatix", "Vitalstatistix",
+  "Captain Haddock", "Snowy", "Professor Calculus",
+  "Barbamama", "Barbabelle", "GIR", "Dib Membrane",
+  "Shaggy Rogers", "Velma Dinkley", "Daphne Blake", "Fred Jones", "Scrappy-Doo",
+  "Barney Rubble", "Wilma Flintstone", "Betty Rubble", "Dino", "Pebbles Flintstone",
+  "Olive Oyl", "Bluto", "Wimpy", "Felix the Cat", "Pink Panther", "Casper",
+  "Woody Woodpecker", "Mighty Mouse", "Droopy",
+
+  // Addams / Burton / Halloween
+  "Morticia Addams", "Gomez Addams", "Uncle Fester", "Lurch", "Pugsley Addams",
+  "Cousin Itt", "Herman Munster", "Sally", "Oogie Boogie", "Lydia Deetz",
+
+  // Seuss and Christmas
+  "Cindy Lou Who", "Horton", "The Lorax", "Sam-I-Am", "Thing One", "Thing Two",
+  "Yertle the Turtle", "Rudolph", "Frosty the Snowman", "Krampus", "Mrs. Claus",
+  "Sugar Plum Fairy", "Tiny Tim", "Jacob Marley", "Bob Cratchit", "Kevin McCallister",
+  "Clark Griswold", "George Bailey",
+
+  // Winnie the Pooh and other public-domain-era characters
+  "Tigger", "Eeyore", "Piglet", "Christopher Robin", "Steamboat Willie",
+  "Bambi", "Nosferatu", "Count Orlok", "Oswald the Lucky Rabbit",
+
+  // Oz, Wonderland, Neverland
+  "Dorothy Gale", "Toto", "Cowardly Lion", "Fiyero", "Nessarose", "Madame Morrible",
+  "Caterpillar", "Dormouse", "March Hare", "Tweedledum", "Tweedledee",
+  "Humpty Dumpty", "Jabberwocky", "Wendy Darling", "Smee", "Tiger Lily",
+  "Tick-Tock the Crocodile",
+
+  // Literature and theatre
+  "Romeo", "Juliet", "Othello", "King Lear", "Ophelia", "Puck", "Prospero", "Iago",
+  "Lady Macbeth", "Falstaff", "Shylock", "Titania", "Oberon", "Sancho Panza",
+  "Dulcinea", "Professor Moriarty", "Mycroft Holmes", "Mrs. Hudson", "Irene Adler",
+  "Inspector Lestrade", "Van Helsing", "Renfield", "Mina Harker", "Igor",
+  "Bride of Frankenstein", "Dorian Gray", "Quasimodo", "Esmeralda",
+  "Christine Daae", "Ishmael", "Queequeg", "Starbuck", "Becky Thatcher",
+  "Oliver Twist", "Fagin", "Pip", "Miss Havisham", "Artful Dodger",
+
+  // Greek, Norse and Egyptian myth
+  "Poseidon", "Hades", "Apollo", "Artemis", "Aphrodite", "Hera", "Ares", "Hermes",
+  "Dionysus", "Perseus", "Theseus", "Minotaur", "Cerberus", "Centaur", "Griffin",
+  "Kraken", "Chimera", "Orpheus", "Persephone", "Prometheus", "Icarus", "Daedalus",
+  "Pandora", "Atlas", "Circe", "Odin", "Loki", "Freya", "Anubis", "Ra", "Osiris",
+  "Isis", "Horus", "Bastet", "Thoth",
+
+  // Historical (deceased)
+  "Alexander the Great", "Socrates", "Plato", "Hannibal Barca", "Genghis Khan",
+  "Joan of Arc", "Queen Victoria", "Elizabeth I", "Henry VIII", "Catherine the Great",
+  "Marcus Aurelius", "Nero", "Augustus", "Spartacus", "Leonidas", "Hatshepsut",
+  "Nefertiti", "Tutankhamun", "Ramses II", "Confucius", "Sun Tzu", "Saladin",
+  "Suleiman the Magnificent", "Charlemagne", "Boudica", "Ashoka",
+
+  // Star Wars
+  "Han Solo", "Obi-Wan Kenobi", "Lando Calrissian", "Padme Amidala", "Anakin Skywalker",
+  "Count Dooku", "Mace Windu", "Ahsoka Tano", "BB-8", "Stormtrooper", "Jabba the Hutt",
+  "Ewok", "Kylo Ren", "Rey", "Din Djarin", "Admiral Ackbar", "Qui-Gon Jinn",
+  "Captain Phasma",
+
+  // Star Trek, Stargate, Doctor Who
+  "Captain Kirk", "Data", "Worf", "Klingon", "Kathryn Janeway", "Benjamin Sisko",
+  "William Riker", "Q", "Quark", "Odo", "Seven of Nine", "Leonard McCoy", "Scotty",
+  "Uhura", "Sulu", "Pavel Chekov", "Khan Noonien Singh", "Tribble", "Geordi La Forge",
+  "Teal'c", "Daniel Jackson", "Jack O'Neill", "Samantha Carter", "Goa'uld",
+  "Cyberman", "Weeping Angel", "K-9", "Sarah Jane Smith", "The Master", "Ood",
+  "Davros",
+
+  // Tolkien and Harry Potter
+  "Aragorn", "Legolas", "Gimli", "Samwise Gamgee", "Boromir", "Saruman", "Galadriel",
+  "Elrond", "Pippin", "Merry", "Smaug", "Treebeard", "Arwen", "Eowyn", "Faramir",
+  "Balrog", "Thorin Oakenshield", "Radagast", "Hagrid", "Draco Malfoy", "Sirius Black",
+  "Luna Lovegood", "Neville Longbottom", "Minerva McGonagall", "Hedwig", "Fawkes",
+  "Bellatrix Lestrange", "Fred Weasley", "George Weasley", "Ginny Weasley",
+  "Remus Lupin", "Buckbeak", "Moaning Myrtle", "Nagini", "Dolores Umbridge",
+
+  // Marvel and DC
+  "Black Widow", "Hawkeye", "Scarlet Witch", "Vision", "Loki", "Falcon",
+  "Winter Soldier", "War Machine", "Nebula", "Mantis", "Wasp", "Ms. Marvel",
+  "Shang-Chi", "Nick Fury", "Ultron", "Hela", "Professor X", "Magneto", "Jean Grey",
+  "Rogue", "Gambit", "Beast", "Nightcrawler", "Mystique", "Colossus", "Daredevil",
+  "Punisher", "Green Goblin", "Doctor Octopus", "Miles Morales", "Gwen Stacy",
+  "Carnage", "Mysterio", "Moon Knight", "Blade", "Ghost Rider", "Namor",
+  "Robin", "Batgirl", "Nightwing", "Aquaman", "Green Lantern", "Cyborg",
+  "Lex Luthor", "Two-Face", "Poison Ivy", "Bane", "Alfred Pennyworth", "Supergirl",
+  "Martian Manhunter", "Shazam", "Raven", "Starfire", "Beast Boy", "Mr. Freeze",
+  "Ra's al Ghul", "Darkseid", "Lois Lane", "Krypto", "Swamp Thing", "Green Arrow",
+  "Splinter", "April O'Neil", "Casey Jones", "Bebop", "Rocksteady",
+
+  // Horror
+  "Jason Voorhees", "Ghostface", "Pinhead", "Jigsaw", "Norman Bates", "Samara Morgan",
+  "Annabelle", "Slender Man", "Candyman", "Art the Clown", "Ash Williams",
+  "Jack Torrance", "Sadako Yamamura", "Xenomorph", "Ellen Ripley", "Sarah Connor",
+  "T-1000", "Carrie White", "Pazuzu", "Laurie Strode", "Slimer", "Peter Venkman",
+
+  // Game Boy / Nintendo / retro
+  "Impa", "Midna", "Navi", "Epona", "Tingle", "Sheik", "Mipha", "Revali", "Daruk",
+  "Urbosa", "Malon", "Fi", "Nabooru", "Rauru", "Skull Kid", "Tetra", "Sidon",
+  "Princess Daisy", "Toadette", "Birdo", "Koopa Troopa", "Boo", "Diddy Kong",
+  "Dixie Kong", "Funky Kong", "Cranky Kong", "Bowser Jr.", "Kamek", "Shy Guy",
+  "Goomba", "Piranha Plant", "Bob-omb", "Lakitu", "Chain Chomp", "Captain Toad",
+  "Pauline", "Waddle Dee", "Marx", "Magolor", "Falco Lombardi", "Peppy Hare",
+  "Slippy Toad", "Krystal", "Wolf O'Donnell", "Zero", "Proto Man", "Dr. Wily",
+  "Roll", "Dr. Light", "Ridley", "Kraid", "Mother Brain", "Ms. Pac-Man", "Blinky",
+  "Pinky", "Inky", "Clyde", "Captain Falcon", "Ness", "Olimar", "Marth", "Pit",
+  "Palutena", "Inkling", "Callie", "Marie",
+
+  // Final Fantasy, Kingdom Hearts, other games
+  "Squall Leonhart", "Lightning", "Noctis", "Yuna", "Tidus", "Terra Branford",
+  "Kefka", "Zidane", "Cecil Harvey", "Tonberry", "Bahamut", "Ifrit", "Rufus Shinra",
+  "Reno", "Lulu", "Auron", "Rikku", "Wakka", "Vivi", "Sora", "Riku", "Kairi",
+  "Roxas", "Axel", "Xion", "Namine", "Xemnas", "Vanitas", "Monokuma", "Makoto Naegi",
+  "Kyoko Kirigiri", "Junko Enoshima", "Byakuya Togami", "Nagito Komaeda",
+  "Basil", "Aubrey", "Kel", "Hero", "Mari", "Alucard", "Simon Belmont",
+
+  // Anime / manga characters
+  "Zoro", "Sanji", "Usopp", "Tony Tony Chopper", "Nico Robin", "Franky", "Brook",
+  "Portgas D. Ace", "Trafalgar Law", "Boa Hancock", "Inosuke Hashibira",
+  "Shinobu Kocho", "Mitsuri Kanroji", "Tengen Uzui", "Muzan Kibutsuji", "Akaza",
+  "Nanami Kento", "Maki Zenin", "Panda", "Yuta Okkotsu", "Suguru Geto",
+  "Mio Akiyama", "Ritsu Tainaka", "Tsumugi Kotobuki", "Azusa Nakano",
+  "Kagami Hiiragi", "Tsukasa Hiiragi", "Miyuki Takara", "Keiichi Maebara",
+  "Mion Sonozaki", "Rena Ryugu", "Satoko Hojo", "Nijika Ijichi", "Ryo Yamada",
+  "Ikuyo Kita", "Kazuma Satou", "Yunyun", "Wiz",
+
+  // Touhou, Vocaloid, Voicevox
+  "Marisa Kirisame", "Cirno", "Remilia Scarlet", "Flandre Scarlet", "Sakuya Izayoi",
+  "Alice Margatroid", "Patchouli Knowledge", "Youmu Konpaku", "Yukari Yakumo",
+  "Fujiwara no Mokou", "Sanae Kochiya", "Koishi Komeiji", "Kaai Yuki",
+  "Nekomura Iroha", "Hiyama Kiyoteru", "Otomachi Una", "Namine Ritsu",
+  "Shikoku Metan", "Kasukabe Tsumugi",
+
+  // Game of Thrones, Breaking Bad, Hunger Games, Pirates, Matrix
+  "Tyrion Lannister", "Cersei Lannister", "Jaime Lannister", "Sansa Stark",
+  "Bran Stark", "Ned Stark", "Hodor", "Drogon", "Night King", "Khal Drogo",
+  "Joffrey Baratheon", "Brienne of Tarth", "Tywin Lannister", "Samwell Tarly",
+  "Dunk", "Egg", "Saul Goodman", "Gus Fring", "Skyler White", "Hank Schrader",
+  "Mike Ehrmantraut", "Peeta Mellark", "Haymitch Abernathy", "President Snow",
+  "Primrose Everdeen", "Will Turner", "Elizabeth Swann", "Barbossa", "Tia Dalma",
+  "Trinity", "The Oracle", "Cypher"
+]

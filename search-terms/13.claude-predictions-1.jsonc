@@ -1,0 +1,124 @@
+[
+  // Top picks
+  "Leeds United", "Burnley", "Sunderland", "Halloween", "Rust", "Snoopy",
+  "Bugs Bunny", "Knuckles", "Mudkip", "Capybara",
+
+  // Football: finishing existing sets
+  "Wrexham", "Espanyol", "Elche", "Levante", "Real Oviedo", "Bayern Munich",
+  "Borussia Dortmund", "Juventus", "AC Milan", "Inter Milan", "Napoli", "Roma",
+  "Paris Saint-Germain", "Marseille", "Ajax", "Celtic", "Rangers",
+
+  // Pokémon
+  "Chikorita", "Piplup", "Greninja", "Mew", "Gyarados", "Dragonite", "Lapras",
+  "Mimikyu", "Meowth", "Ditto", "Magikarp",
+
+  // Sanrio
+  "Keroppi", "Gudetama", "Little Twin Stars", "Tuxedo Sam", "Hangyodon", "Aggretsuko",
+
+  // Vocaloid / UTAU
+  "Yowane Haku", "Yuzuki Yukari", "IA", "Defoko Utane", "Oliver",
+
+  // Undertale / Deltarune
+  "Toriel", "Papyrus", "Undyne", "Flowey", "Frisk", "Mettaton", "Napstablook",
+  "Lancer", "Noelle", "Berdly", "Queen", "Rouxls Kaard",
+
+  // Portal / Half-Life / Final Fantasy VII
+  "Cave Johnson", "Companion Cube", "Headcrab", "Barney Calhoun", "Dr. Kleiner",
+  "Zack Fair", "Mog", "Cactuar",
+
+  // Disney / Pixar
+  "Minnie Mouse", "Pluto", "Chip and Dale", "Sulley", "Nemo", "Dory",
+  "Lightning McQueen", "Remy", "Ariel", "Aurora", "Jasmine", "Anna", "Simba",
+  "Scar", "Ursula", "Jafar",
+
+  // Cartoons and comics
+  "Porky Pig", "Tweety", "Sylvester", "Wile E. Coyote", "Road Runner",
+  "Marvin the Martian", "Elmer Fudd", "Marge Simpson", "Lisa Simpson",
+  "Stewie Griffin", "Brian Griffin", "Kyle Broflovski", "Butters", "Bender",
+  "Leela", "Zoidberg", "Fozzie Bear", "Gonzo", "Animal", "Elmo", "Big Bird",
+  "Cookie Monster", "Oscar the Grouch", "Woodstock", "Lucy van Pelt", "Jake the Dog",
+  "Ice King", "BMO", "Marceline", "Dipper Pines", "Mabel Pines",
+  "Perry the Platypus", "Doofenshmirtz",
+
+  // Stranger Things
+  "Eleven", "Dustin Henderson", "Lucas Sinclair", "Max Mayfield", "Steve Harrington",
+
+  // Tech and open source
+  "Python", "Debian", "Fedora", "NixOS", "Gentoo", "NetBSD", "Tux", "Git", "Vim",
+  "Emacs", "Docker", "Blender", "Godot", "GIMP", "Krita", "Inkscape", "Firefox",
+  "Thunderbird", "Wikipedia", "Mastodon", "Bluesky", "Codeberg", "Gitea", "Matrix",
+  "Tor", "Signal", "Ferris",
+
+  // Retro and internet culture
+  "Windows XP", "Commodore 64", "Tamagotchi", "Neopets", "Club Penguin",
+  "Newgrounds", "Minesweeper", "Oregon Trail", "Tetris", "Rubik's Cube", "Sudoku",
+  "Comic Sans", "Doge", "Keyboard Cat", "Pepe the Frog", "Gangnam Style",
+
+  // Tech people (deceased)
+  "Alan Turing", "Grace Hopper", "Hedy Lamarr",
+
+  // Aesthetics and art movements
+  "Vaporwave", "Cyberpunk", "Steampunk", "Y2K", "Brutalism", "Art Deco",
+  "Art Nouveau", "Baroque", "Renaissance", "Minimalism", "Dada",
+
+  // Games
+  "Amy Rose", "Dr. Eggman", "Samus Aran", "Ryu", "Ken Masters", "Guile",
+  "Scorpion", "Raiden", "Jill Valentine", "Claire Redfield", "Pyramid Head",
+  "Terry Bogard", "Goro Majima", "Stardew Valley", "Celeste", "Cuphead",
+  "Terraria", "Creeper", "Steve", "Tom Nook", "Isabelle",
+
+  // Scientists (deceased)
+  "Isaac Newton", "Galileo", "Charles Darwin", "Stephen Hawking", "Carl Sagan",
+  "Mary Anning", "Dian Fossey", "Dmitri Mendeleev",
+
+  // Painters and artists (deceased)
+  "Rembrandt", "Vermeer", "Hokusai", "Georgia O'Keeffe", "Rene Magritte", "M. C. Escher",
+  "Jackson Pollock", "Edward Hopper", "Alphonse Mucha", "Georges Seurat",
+  "Paul Cezanne", "Paul Gauguin", "Mark Rothko", "Wassily Kandinsky", "Botticelli",
+  "Caravaggio",
+
+  // Composers
+  "Vivaldi", "Tchaikovsky", "Debussy", "Handel", "Franz Liszt", "Schubert",
+  "Brahms", "Erik Satie",
+
+  // Authors (deceased)
+  "William Shakespeare", "Mary Shelley", "J. R. R. Tolkien", "Mark Twain",
+  "Charles Dickens", "Oscar Wilde", "Lewis Carroll", "Jules Verne", "H. P. Lovecraft",
+  "Toni Morrison", "Virginia Woolf", "Terry Pratchett", "Douglas Adams",
+  "Franz Kafka", "Dr. Seuss",
+
+  // Musicians (deceased)
+  "David Bowie", "Freddie Mercury", "Prince", "Bob Marley", "Kurt Cobain",
+
+  // Generic archetypes
+  "Vampire", "Werewolf", "Mermaid", "Skeleton", "Robot", "Fairy", "Elf", "Troll",
+  "Goblin", "Knight", "Viking", "Gladiator", "Pharaoh", "Detective", "Spy",
+  "Clown", "Magician", "Scarecrow", "Pumpkin", "Reindeer", "Gingerbread Man",
+  "Cupid", "Leprechaun",
+
+  // Animals
+  "Axolotl", "Corgi", "Frog", "Owl", "Panda", "Penguin", "Octopus", "Raccoon",
+  "Hedgehog", "Platypus", "Narwhal", "Sloth", "Koala",
+
+  // Holidays and events
+  "Thanksgiving", "Christmas", "Easter", "Valentine's Day", "New Year",
+  "Lunar New Year", "Diwali", "Pride", "Earth Day", "Pi Day", "Star Wars Day",
+  "Cinco de Mayo", "Mardi Gras", "Groundhog Day", "April Fools", "Wimbledon",
+  "Roland Garros", "Eurovision", "Indy 500", "Le Mans", "Monaco Grand Prix",
+  "Stanley Cup", "World Series", "March Madness", "Comic-Con", "Coachella",
+  "Oscars", "Grammys", "Nobel Prize", "Lunar eclipse", "Halley's Comet",
+
+  // Anime
+  "Okarun", "Momo Ayase", "Dr. Stone", "Kaiju No. 8", "Sakamoto Days",
+  "Rei Ayanami", "Shinji Ikari", "Misato Katsuragi", "Light Yagami", "L",
+  "Edward Elric", "Spike Spiegel", "Saitama", "All Might", "Katsuki Bakugo",
+  "Gon Freecss", "Killua Zoldyck", "Ichigo Kurosaki", "Vegeta", "Fern", "Stark",
+  "Denji", "Pochita", "Power", "Makima", "Rem", "Emilia", "Megumin", "Aqua",
+
+  // Ghibli
+  "Howl", "Calcifer", "Ponyo", "Kodama", "Jiji", "Ashitaka", "San",
+
+  // Gacha and VTubers
+  "Zhongli", "Hu Tao", "Nahida", "March 7th", "Firefly", "Acheron",
+  "Usada Pekora", "Mori Calliope", "Ninomae Ina'nis"
+]

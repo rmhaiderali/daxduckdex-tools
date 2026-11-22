@@ -1,0 +1,79 @@
+[
+  // Odyssey / Trojan War / Greek tragedy (best family)
+  "Nestor", "Diomedes", "Ajax the Great", "Hecuba", "Andromache", "Laocoon",
+  "Sinon", "Penthesilea", "Iphigenia", "Clytemnestra", "Orestes", "Electra",
+  "Oedipus", "Antigone", "Medea", "Jason", "Atalanta", "Narcissus", "Echo",
+  "Pan", "Andromeda", "King Midas", "Sisyphus", "Tantalus", "Eurydice",
+  "Argos", "Eurycleia", "Elpenor", "Alcinous", "Arete", "Leucothea", "Proteus",
+  "Laestrygonians", "Cattle of Helios", "Trojan Horse", "Harpy", "Lamia",
+  "Hecate", "Nike", "Eris", "Nemesis", "Hephaestus", "Demeter", "Hestia",
+  "Cronus", "Rhea", "Gaia", "Uranus", "Nyx", "Morpheus Greek", "Thanatos",
+  "Charon", "Styx", "Tartarus", "Elysium", "Hydra Lernaean",
+
+  // Naruto (untested)
+  "Kiba Inuzuka", "Akamaru", "Neji Hyuga", "Tenten", "Shino Aburame",
+  "Ino Yamanaka", "Choji Akimichi", "Konohamaru", "Kabuto Yakushi", "Deidara",
+  "Sasori", "Kisame Hoshigaki", "Konan", "Hidan", "Kakuzu", "Zabuza Momochi",
+  "Haku", "Obito Uchiha", "Kushina Uzumaki", "Hashirama Senju", "Tobirama Senju",
+  "Hiruzen Sarutobi", "Boruto Uzumaki", "Gamabunta", "Killer Bee",
+
+  // Demon Slayer (untested)
+  "Genya Shinazugawa", "Kokushibo", "Douma", "Daki", "Gyutaro", "Nakime",
+  "Rui", "Enmu", "Hantengu", "Sabito", "Makomo", "Sakonji Urokodaki",
+  "Tamayo", "Yushiro", "Kanae Kocho", "Aoi Kanzaki", "Kyojuro's Tsuguko Kanroji",
+
+  // Gintama
+  "Kagura", "Shinpachi Shimura", "Toshiro Hijikata", "Sougo Okita",
+  "Isao Kondo", "Kotaro Katsura", "Sadaharu", "Elizabeth", "Shinsuke Takasugi",
+  "Otose", "Madao Hasegawa", "Tsukuyo", "Tatsuma Sakamoto", "Nobume Imai",
+
+  // Vocaloid / Voiceroid (untested)
+  "Lily", "Mayu", "Utatane Piko", "SeeU", "Sonika", "Prima", "Clara", "Cul",
+  "Gackpo", "Fukase", "Kokone", "Ruby", "Momone Momo", "Rana", "Anon Kanon",
+  "Kagene Rei", "Yuzuki Yukari Lite", "Tohoku Itako", "Tohoku Kiritan",
+  "Chis-A", "Yumemi Nemu",
+
+  // Ace Attorney / Capcom
+  "Miles Edgeworth", "Maya Fey", "Mia Fey", "Apollo Justice", "Athena Cykes",
+  "Franziska von Karma", "Larry Butz", "Pearl Fey", "Godot", "Trucy Wright",
+  "Manfred von Karma", "Ema Skye", "Dante", "Vergil", "Nero Devil May Cry",
+  "Trish", "Lady", "Morrigan Aensland", "Felicia", "Chris Redfield",
+  "Ada Wong", "Nemesis Resident Evil", "Mr. X", "Lady Dimitrescu",
+  "Okami Amaterasu", "Viewtiful Joe", "Arthur", "Firebrand", "Frank West",
+
+  // Hanna-Barbera / cartoon orbit around Yogi, Flintstones, Smurfs
+  "Ranger Smith", "Cindy Bear", "Wally Gator", "Jabberjaw", "Josie",
+  "Captain Planet", "Smurfette", "Papa Smurf", "Brainy Smurf", "Hefty Smurf",
+  "Azrael", "Grape Ape", "Peter Potamus", "Touche Turtle", "Lippy the Lion",
+  "Hardy Har Har", "Ricochet Rabbit", "Squiddly Diddly", "Mumbly",
+  "Hair Bear", "Wacky Races", "Peter Perfect", "Professor Pat Pending",
+  "Red Max", "Sergeant Blast", "Private Meekly", "Rufus Ruffcut",
+
+  // Guardians / sibling Marvel crews (Yondu completed one)
+  "Ben Grimm", "Johnny Storm", "Sue Storm", "Reed Richards", "H.E.R.B.I.E.",
+  "Franklin Richards", "Mole Man", "Annihilus", "Ego the Living Planet",
+  "Cosmo the Spacedog", "Adam Warlock", "Howard the Duck", "Kraglin",
+  "Ayesha", "Nebula Skrull", "Rocket's Lylla", "Groot Baby",
+
+  // Fire Lord Ozai / Avatar villains and elders (Ozai hit)
+  "Azula's Mother Ursa", "Zhao", "Long Feng", "Combustion Man", "Hakoda",
+  "Kya", "Bolin", "Mako", "Asami Sato", "Tenzin", "Zaheer", "Unalaq",
+  "Amon", "Varrick", "Tarrlok", "Lin Beifong", "Pabu",
+
+  // Lorax / Seuss (Lorax hit) and Draco / Harry Potter (Draco hit)
+  "Bartholomew Cubbins", "Grickle-grass", "Zax", "Whoville",
+  "Vernon Dursley", "Dudley Dursley", "Petunia Dursley", "Cedric Diggory",
+  "Cho Chang", "Viktor Krum", "Fleur Delacour", "Gilderoy Lockhart",
+  "Peter Pettigrew", "Rubeus Hagrid", "Filius Flitwick", "Pomona Sprout",
+  "Argus Filch", "Peeves", "Dobby's Kreacher", "Griphook", "Aragog",
+  "Fluffy", "Norbert", "Scabbers", "Crookshanks", "Trevor", "Nearly Headless Nick",
+  "Bloody Baron", "Grey Lady", "Fat Friar", "Sorting Hat",
+
+  // Retro hits (Navi, Diddy Kong, Magolor, Ms. Pac-Man) — siblings
+  "Link's Fairy Tael", "Ghost Ganon", "Zelda's Impa", "Kass", "Purah", "Robbie",
+  "Yiga Clan", "Hestu", "Korok", "Bokoblin", "Moblin", "Lynel", "Guardian",
+  "Tiny Kong", "Lanky Kong", "Chunky Kong", "K. Rool Kremling", "Candy Kong",
+  "Wrinkly Kong", "Squawks", "Rambi", "Enguarde", "Expresso", "Winky",
+  "Meta Knight's Sword", "Sectonia", "Susie Haltmann", "Void Termina",
+  "Pac-Man Ghost", "Sue", "Funky", "Spunky", "Jr. Pac-Man", "Baby Pac-Man"
+]

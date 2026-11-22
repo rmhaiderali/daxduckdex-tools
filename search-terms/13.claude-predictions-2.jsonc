@@ -1,0 +1,39 @@
+[
+  // Simpsons / South Park siblings (best hit rate)
+  "Maggie Simpson", "Ned Flanders", "Moe Szyslak", "Mr. Burns", "Krusty the Clown",
+  "Milhouse", "Ralph Wiggum", "Randy Marsh", "Wendy Testaburger", "Towelie",
+  "Mr. Mackey", "Mr. Hankey",
+
+  // Peanuts / Looney Tunes / Gravity Falls / Stranger Things
+  "Linus van Pelt", "Peppermint Patty", "Yosemite Sam", "Foghorn Leghorn",
+  "Soos", "Waddles", "Grunkle Stan", "Wendy Corduroy",
+  "Nancy Wheeler", "Joyce Byers", "Robin Buckley",
+
+  // Pokémon not yet covered
+  "Charmander", "Cubone", "Togepi", "Slowpoke", "Wooper", "Rowlet", "Torchic",
+  "Sprigatito", "Fuecoco", "Quaxly",
+
+  // Hololive siblings
+  "Houshou Marine", "Hoshimachi Suisei", "Minato Aqua", "Shirakami Fubuki",
+  "Tokino Sora", "Hakos Baelz", "Ceres Fauna", "Ouro Kronii",
+  "Inugami Korone", "Nekomata Okayu", "Ookami Mio",
+
+  // Memes near Doge / Nyan Cat / Trollface
+  "Cheems", "Bongo Cat", "Wojak", "Grumpy Cat", "Moo Deng", "Big Chungus",
+  "Gigachad", "Longcat",
+
+  // Computing and math figures (deceased), near Turing / Lovelace / Babbage
+  "Claude Shannon", "John von Neumann", "Kurt Godel", "Dennis Ritchie",
+  "Leonhard Euler", "Carl Friedrich Gauss", "Srinivasa Ramanujan", "Emmy Noether",
+  "Hypatia", "Archimedes", "Pythagoras", "Euclid", "Michael Faraday",
+  "James Clerk Maxwell", "Johannes Kepler", "Nicolaus Copernicus",
+
+  // Classical composers (deceased), near Handel / Bach / Haydn
+  "Felix Mendelssohn", "Robert Schumann", "Clara Schumann", "Gustav Mahler",
+  "Igor Stravinsky", "Maurice Ravel", "Giuseppe Verdi", "Richard Wagner",
+  "Henry Purcell", "Claudio Monteverdi", "Antonin Dvorak", "Johannes Brahms",
+
+  // Platypus-like animals (the one animal that hit)
+  "Echidna", "Wombat", "Quokka", "Kangaroo", "Kiwi", "Dodo", "Goose", "Swan",
+  "Flamingo", "Puffin", "Pelican", "Chicken", "Rooster", "Shiba Inu"
+]

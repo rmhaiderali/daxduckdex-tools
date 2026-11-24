@@ -5,3 +5,6 @@ ducks/*
 
 found-logos/new/*
 !found-logos/new/.gitkeep
+
+temp/*
+!temp/.gitkeep

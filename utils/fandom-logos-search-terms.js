@@ -1,8 +1,10 @@
+// https://logos.fandom.com/wiki/DuckDuckGo/Easter_Eggs
+
 // Array.from(document.querySelectorAll(".lightbox-caption")).map((e) => {
 //   return e.innerText.match(/".+?"/g).map((l) => l.slice(1, -1))
 // })
 
-export const fandomNamesGroups = [
+export default [
   ["67"],
   ["8Bit"],
   ["A Knight of the Seven Kingdoms"],
@@ -38,7 +40,7 @@ export const fandomNamesGroups = [
   ["Antinous"],
   ["Apollo 11"],
   ["Applejack"],
-  ["Aquaman"],
+  ["Aquaman", "Arthur Curry"],
   ["Arch Linux"],
   ["Aretha Franklin"],
   ["Aristotle"],
@@ -106,6 +108,7 @@ export const fandomNamesGroups = [
   ["Blue's Clues"],
   ["Blues Brothers"],
   ["Bluey"],
+  ["Bo Peep"],
   ["Bob Ross"],
   ["Bob the Tomato"],
   ["Boba Fett"],
@@ -815,11 +818,14 @@ export const fandomNamesGroups = [
   ["Rin Tohsaka"],
   ["Roaring Knight"],
   ["Robin Hood"],
+  ["Robin the Boy Wonder", "Richard Grayson"],
   ["Roblox"],
   ["Robocop"],
+  ["Robot"],
   ["Rocket Raccoon"],
   ["Rocky Balboa"],
   ["Ron Weasley"],
+  ["Ronald McDonald"],
   ["Rosa Parks"],
   ["Rosalina"],
   ["Rosalind Franklin"],
@@ -847,6 +853,7 @@ export const fandomNamesGroups = [
   ["Saria"],
   ["Sasuke Uchiha"],
   ["Satoru Gojo"],
+  ["Saul Goodman"],
   ["Sauron"],
   ["Sayori"],
   ["Scarlet Witch"],
@@ -1057,6 +1064,7 @@ export const fandomNamesGroups = [
   ["Washington Wizards"],
   ["Watanare"],
   ["Wednesday Addams"],
+  ["Wendy's"],
   ["West Ham United"],
   ["Wheatley"],
   ["Where the Wild Things Are"],

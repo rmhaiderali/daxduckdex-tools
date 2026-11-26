@@ -2,7 +2,7 @@
 
 import fs from "fs"
 import { makdulacDucks } from "./utils/makdulac-ducks.js"
-import { fandomNamesGroups } from "./utils/fandom-names-groups.js"
+import searchTermsEntries from "./utils/fandom-logos-search-terms.js"
 import { characterCorrections } from "./utils/character-corrections.js"
 
 process.chdir(import.meta.dirname)
@@ -11,7 +11,7 @@ const characterCorrectionsSwapped = Object.fromEntries(
   Object.entries(characterCorrections).map(([k, v]) => [v, k]),
 )
 
-const fandomLowerNames = fandomNamesGroups.flat().map((e) => e.toLowerCase())
+const fandomLowerNames = searchTermsEntries.flat().map((e) => e.toLowerCase())
 
 const notInFandom = []
 
@@ -25,8 +25,9 @@ for (const duck of makdulacDucks) {
 
 if (notInFandom.length) {
   console.log(notInFandom.length + " new characters found")
-  fs.writeFileSync("temp/not-in-fandom.json", JSON.stringify(notInFandom))
-  console.log("Saved to temp/not-in-fandom.json")
+  const outputPath = "temp/not-in-fandom-logos.json"
+  fs.writeFileSync(outputPath, JSON.stringify(notInFandom))
+  console.log("Saved to " + outputPath)
 } else {
   console.log("No new characters found")
 }
